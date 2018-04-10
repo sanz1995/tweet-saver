@@ -33,9 +33,8 @@ public class Saver {
 
 
         JSONObject tweet = new JSONObject(message);
-        System.out.println(tweet.toString());
 
-        tr.save(new Tweet(tweet.getString("idStr"),tweet.getString("unmodifiedText"),tweet.getString("fromUser")));
+        tr.save(new Tweet(tweet.getString("id"),tweet.getString("text"),tweet.getString("user")));
 
 
 
