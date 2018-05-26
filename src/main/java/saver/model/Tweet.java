@@ -1,4 +1,4 @@
-package saver;
+package saver.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
@@ -13,6 +13,7 @@ public class Tweet {
     private String text;
 
     private String user;
+
 
 
     public Tweet() {
@@ -37,7 +38,5 @@ public class Tweet {
     public String getUser() {
         return user;
     }
-
-
 
 }

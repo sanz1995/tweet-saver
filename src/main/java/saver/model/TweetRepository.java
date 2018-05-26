@@ -1,4 +1,4 @@
-package saver;
+package saver.model;
 
 import org.springframework.data.repository.CrudRepository;
 
